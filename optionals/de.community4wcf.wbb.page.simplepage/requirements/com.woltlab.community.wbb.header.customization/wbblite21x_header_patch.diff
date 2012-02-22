@@ -1,0 +1,29 @@
+--- header.tpl
++++ header_with_patch.tpl
+@@ -184,13 +184,22 @@
+ 		</div>
+ 		<div id="logo">
+ 			<div class="logoInner">
+-				<h1 class="pageTitle"><a href="index.php?page=Index{@SID_ARG_2ND}">{lang}{PAGE_TITLE}{/lang}</a></h1>
+-				{if $this->getStyle()->getVariable('page.logo.image')}
+-					<a href="index.php?page=Index{@SID_ARG_2ND}" class="pageLogo">
++				{if $customPageLocation|isset}
++					{assign var=linkTarget value=$customPageLocation}
++				{else}
++					{assign var=linkTarget value="index.php?page=Index"}
++				{/if}
++				<h1 class="pageTitle"><a href="{$linkTarget}{@SID_ARG_2ND}">{lang}{PAGE_TITLE}{/lang}</a></h1>
++				{if $customPageLogo|isset}
++					<a href="{$linkTarget}{@SID_ARG_2ND}" class="pageLogo">
++						<img src="{$customPageLogo}" title="{lang}{PAGE_TITLE}{/lang}" alt="" />
++					</a>
++				{elseif $this->getStyle()->getVariable('page.logo.image')}
++					<a href="{$linkTarget}{@SID_ARG_2ND}" class="pageLogo">
+ 						<img src="{$this->getStyle()->getVariable('page.logo.image')}" title="{lang}{PAGE_TITLE}{/lang}" alt="" />
+ 					</a>
+ 				{elseif $this->getStyle()->getVariable('page.logo.image.application.use') == 1}
+-					<a href="index.php?page=Index{@SID_ARG_2ND}" class="pageLogo">
++					<a href="{$linkTarget}{@SID_ARG_2ND}" class="pageLogo">
+ 						<img src="{@RELATIVE_WBB_DIR}images/wbblite2-header-logo.png" title="{lang}{PAGE_TITLE}{/lang}" alt="" />
+ 					</a>
+ 				{/if}

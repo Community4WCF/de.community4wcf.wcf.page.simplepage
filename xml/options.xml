@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1596 2010-08-28 12:57:26Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="simplepage">
+				<showorder>40</showorder>
+				<permissions>admin.content.managepages.simplepage</permissions>
+				<options>module_simplepage</options>
+			</category>
+			<category name="simplepage.general">
+				<parent>simplepage</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="simplepage.settings">
+				<parent>simplepage</parent>
+				<showorder>2</showorder>
+			</category>
+			<category name="module.content.managepages">
+				<parent>module.content</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- module options -->
+			<option name="module_simplepage">
+				<categoryname>module.content.managepages</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<!-- page options -->
+			<option name="simplepage_title">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>wcf.simplepage.title</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="simplepage_description">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>wcf.simplepage.description</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="simplepage_text">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>wcf.simplepage.text</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="simplepage_enable_smiley">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+				<options>module_smiley</options>
+			</option>
+			<option name="simplepage_enable_html">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>5</showorder>
+			</option>
+			<option name="simplepage_enable_bbcodes">
+				<categoryname>simplepage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>6</showorder>
+			</option>
+			<option name="simplepage_enable_startpage">
+				<categoryname>simplepage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<!--
+			<option name="simplepage_enable_register">
+				<categoryname>simplepage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			-->
+			<option name="allow_spider_on_simplepage">
+				<categoryname>simplepage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="simplepage_brandingfree">
+				<categoryname>simplepage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>0</hidden>
+				<showorder>4</showorder>
+			</option>
+			<!-- /page options -->
+		</options>
+	</import>
+</data>

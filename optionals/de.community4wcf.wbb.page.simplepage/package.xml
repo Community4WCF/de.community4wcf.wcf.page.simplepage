@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1824 2011-08-28 14:07:15Z TobiasH87 $ -->
+<package name="de.community4wcf.wbb.page.simplepage" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Simple Page - WBB extension]]></packagename>
+		<packagename language="de"><![CDATA[Einfache Seite - WBB Erweiterung]]></packagename>
+		<packagename language="de-informal"><![CDATA[Einfache Seite - WBB Erweiterung]]]></packagename>
+		<packagedescription><![CDATA[This extension extends the simple pages plugin at WBB functions.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Diese Erweiterung erweitert das Einfache Seiten Plugin um WBB Funktionen.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Diese Erweiterung erweitert das Einfache Seiten Plugin um WBB Funktionen.]]></packagedescription>
+		<version>1.0.1</version> <!-- codename: Simple Page - WBB extension-->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<date>2011-05-31</date>
+		<standalone>0</standalone>
+		<isunique>0</isunique>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageinformation>
+
+	<licenseinformation>
+		<license><![CDATA[CC by-sa]]></license>
+		<licenseURL><![CDATA[http://creativecommons.org/licenses/by-sa/3.0/]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.1.1">com.woltlab.wbb</requiredpackage>
+		<requiredpackage minversion="1.1.6 pl 3">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.*">de.community4wcf.wcf.page.simplepage</requiredpackage>
+		<requiredpackage minversion="0.1.0" file="requirements/com.woltlab.community.wbb.header.customization_wbb3.tar">com.woltlab.community.wbb.header.customization</requiredpackage>
+		<!-- <requiredpackage minversion="1.1.0 Beta 1" file="requirements/com.dtdesign.wbb.header.customization.tar.gz">com.dtdesign.wbb.header.customization</requiredpackage> --> <!-- old package -->
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<eventlistener>xml/eventlistener.xml</eventlistener>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0 Beta *">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<eventlistener>xml/eventlistener.xml</eventlistener>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0">
+		<x /> <!-- package xml update -->
+	</instructions>
+</package>

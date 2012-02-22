@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1568 2010-08-25 14:26:19Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.simplepage_enable_register"><![CDATA[View page upon registration]]></item>
+		<item name="wcf.acp.option.simplepage_enable_register.description"><![CDATA[Enabling this option will be displayed prior to the registration page.]]></item>
+	</category>
+</language>

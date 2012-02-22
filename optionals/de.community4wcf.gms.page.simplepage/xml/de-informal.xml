@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 1604 2010-08-29 16:33:15Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<!-- page -->
+		<item name="wcf.acp.option.category.simplepage.settings.gms"><![CDATA[GMS- Einstellungen]]></item>
+		<item name="wcf.acp.option.category.simplepage.settings.gms.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.simplepage_enable_startpage_gms"><![CDATA[Seite als GMS- Startseite?]]></item>
+		<item name="wcf.acp.option.simplepage_enable_startpage_gms.description"><![CDATA[Soll die Seite als GMS- Startseite verwendet werden? Diese Option NICHT verwenden, wenn die Option "{lang}wcf.acp.option.simplepage_enable_startpage{/lang}" bereits aktiviert wurde.]]></item>
+		<item name="wcf.acp.option.simplepage_enable_startpage_gms_logo"><![CDATA[GMS- Logo zu Einfachen Seite führen?]]></item>
+		<item name="wcf.acp.option.simplepage_enable_startpage_gms_logo.description"><![CDATA[Soll man durch klicken auf das GMS- Logo auf die Einfachen Seite gelangen?]]></item>
+		<item name="wcf.acp.option.simplepage_enable_offline_gms"><![CDATA[Seite auch während des Wartungsmodus im GMS anzeigen?]]></item>
+		<item name="wcf.acp.option.simplepage_enable_offline_gms.description"><![CDATA[Soll die Seite auch während des Wartungsmodus im GMS angezeigt werden?]]></item>
+		<!-- /page -->
+	</category>
+</language>
