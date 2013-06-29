@@ -1,28 +1,79 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
 	<import>
 		<categories>
 			<category name="simplePage">
 				<parent>general</parent>
+				<options>module_simple_page</options>
+			</category>
+			<category name="simplePage.general">
+				<parent>simplePage</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="simplePage.settings">
+				<parent>simplePage</parent>
+				<showorder>2</showorder>
 			</category>
 		</categories>
 	
 		<options>
+			<!-- module options -->
+			<option name="module_simple_page">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<option name="simple_page_title">
+				<categoryname>simplePage.general</categoryname>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<showorder>1</showorder>
+				<defaultvalue>wcf.simplePage.title</defaultvalue>
+			</option>
+			<option name="simple_page_description">
+				<categoryname>simplePage.general</categoryname>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<showorder>2</showorder>
+				<defaultvalue>wcf.simplePage.description</defaultvalue>
+			</option>
 			<option name="simple_page_content">
-				<categoryname>simplePage</categoryname>
+				<categoryname>simplePage.general</categoryname>
 				<optiontype>textareaI18n</optiontype>
 				<supporti18n>1</supporti18n>
+				<showorder>3</showorder>
 			</option>
-			<!--
-			<option name="simple_page_text">
-				<categoryname>simplePage</categoryname>
-				<optiontype>text</optiontype>
+			<option name="simple_page_enable_smiley">
+				<categoryname>simplePage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>4</showorder>
+				<defaultvalue>1</defaultvalue>
 			</option>
 			<option name="simple_page_enable_html">
-				<categoryname>simplePage</categoryname>
+				<categoryname>simplePage.general</categoryname>
 				<optiontype>boolean</optiontype>
+				<showorder>5</showorder>
+				<defaultvalue>0</defaultvalue>
 			</option>
-			-->
+			<option name="simple_page_enable_bbcodes">
+				<categoryname>simplePage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>6</showorder>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="simple_page_enable_allowSpiders">
+				<categoryname>simplePage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="simple_page_enable_offlinemode">
+				<categoryname>simplePage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>2</showorder>
+				<defaultvalue>0</defaultvalue>
+			</option>
 		</options>
 	</import>
 </data>

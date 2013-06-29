@@ -4,6 +4,8 @@
 		<pagemenuitem name="wcf.simplePage.menu">
 			<controller><![CDATA[wcf\page\SimplePagePage]]></controller>
 			<position>footer</position>
+			<options>module_simple_page</options>
+			<permissions>user.profile.canViewSimplePage</permissions>
 		</pagemenuitem>
 	</import>
 </data>

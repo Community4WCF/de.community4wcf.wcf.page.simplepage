@@ -1,7 +1,7 @@
 {include file='documentHeader'}
 
 <head>
-	<title>{lang}wcf.simplePage.title{/lang} - {PAGE_TITLE|language}</title>
+	<title>{SIMPLE_PAGE_TITLE|language} - {PAGE_TITLE|language}</title>
 	
 	{include file='headInclude'}
 	
@@ -13,14 +13,14 @@
 {include file='header'}
 
 <header class="boxHeadline">
-	<h1>{lang}wcf.simplePage.title{/lang}</h1>
-	<p>{lang}wcf.simplePage.description{/lang}</p>
+	<h1>{SIMPLE_PAGE_TITLE|language}</h1>
+	<p>{SIMPLE_PAGE_DESCRIPTION|language}</p>
 </header>
 
 {include file='userNotice'}
 
 <div class="container containerPadding marginTop">
-	{@$simplepage|language|nl2br}
+	{@$simplepage|language}
 	
 	{event name='additionalContents'}
 </div>

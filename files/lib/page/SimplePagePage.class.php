@@ -14,7 +14,7 @@ use wcf\system\bbcode\MessageParser;
  * @category	Community Framework
  */
 class SimplePagePage extends AbstractPage {
-	const AVAILABLE_DURING_OFFLINE_MODE = false;
+	const AVAILABLE_DURING_OFFLINE_MODE = SIMPLE_PAGE_ENABLE_OFFLINEMODE;
 	
 	/**
 	 * @see	wcf\page\AbstractPage::$activeMenuItem
@@ -24,12 +24,12 @@ class SimplePagePage extends AbstractPage {
 	/**
 	 * @see	wcf\page\AbstractPage::$neededPermissions
 	 */
-	#public $neededPermissions = array('user.profile.canViewSimplePage');
+	public $neededPermissions = array('user.profile.canViewSimplePage');
 	
 	/**
 	 * @see	wcf\page\AbstractPage::$neededModules
 	 */
-	#public $neededModules = array('MODULE_SIMPLEPAGE_PAGE');
+	public $neededModules = array('MODULE_SIMPLE_PAGE');
 	
 	/**
 	 * @see wcf\page\IPage::assignVariables()
@@ -38,9 +38,8 @@ class SimplePagePage extends AbstractPage {
 		parent::assignVariables();
 			
 		WCF::getTPL()->assign(array(
-			#'simplepage' => MessageParser::getInstance()->setOutputType('text/html'),
-			'simplepage' => MessageParser::getInstance()->parse(SIMPLE_PAGE_CONTENT, 1, 0, 1),
-			'allowSpidersToIndexThisPage' => true
+			'simplepage' => MessageParser::getInstance()->parse(SIMPLE_PAGE_CONTENT, SIMPLE_PAGE_ENABLE_SMILEY, SIMPLE_PAGE_ENABLE_HTML, SIMPLE_PAGE_ENABLE_BBCODES),
+			'allowSpidersToIndexThisPage' => SIMPLE_PAGE_ENABLE_ALLOWSPIDERS
 		));
 	}
 }

@@ -6,8 +6,8 @@
 		<packagedescription><![CDATA[To easily manage and display content on a page.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Zum einfachen Verwalten und Anzeigen von Inhalten auf einer Seite.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>2.0.0 Beta 1</version> <!-- codename: Simple Page -->
-		<date>2013-06-29</date>
+		<version>2.0.0 Beta 2</version> <!-- codename: Simple Page -->
+		<date>2013-06-30</date>
 	</packageinformation>
 		
 	<!-- license: CC by-sa <http://creativecommons.org/licenses/by-sa/3.0/> -->
@@ -22,6 +22,15 @@
 	</requiredpackages>
 	
 	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="pageMenu">pageMenu.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 Beta *">
 		<instruction type="file">files.tar</instruction>
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
