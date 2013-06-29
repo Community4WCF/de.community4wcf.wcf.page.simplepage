@@ -10,7 +10,7 @@
 		<item name="wcf.acp.option.category.simplePage.settings"><![CDATA[Settings]]></item>
 		<item name="wcf.acp.option.category.simplePage.settings.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.simple_page_title"><![CDATA[Title]]></item>
-		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Title of the page and menü.]]></item>
+		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Title of the page. (The name of menü you can change in pagemenü)]]></item>
 		<item name="wcf.acp.option.simple_page_description"><![CDATA[Description]]></item>
 		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.simple_page_content"><![CDATA[Content]]></item>
@@ -30,7 +30,7 @@
 		<item name="wcf.simplePage.title"><![CDATA[Page]]></item>
 		<item name="wcf.simplePage.description"><![CDATA[]]></item>
 		<!--<item name="wcf.simplePage.content"><![CDATA[]]></item>-->
-		<item name="wcf.simplePage.menu"><![CDATA[{SIMPLE_PAGE_TITLE|language}]]></item>
+		<item name="wcf.simplePage.menu"><![CDATA[Seite]]></item>
 	</category>
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.user.profile.canViewSimplePage"><![CDATA[Can see Simple Page]]></item>
