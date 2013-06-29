@@ -1,47 +1,46 @@
 <?php
-// wcf imports
-require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
-require_once(WCF_DIR.'lib/data/message/bbcode/MessageParser.class.php');
+namespace wcf\page;
+use wcf\system\WCF;
+use wcf\system\bbcode\MessageParser;
 
 /**
- * Shows the simple page.
+ * Shows the simplepage page.
  * 
- * @svn			$Id: SimplePagePage.class.php 1579 2010-08-26 18:44:01Z TobiasH87 $
+ * @author		Tobias H.
+ * @copyright	2008-2013 Community4WCF (C4W)
+ * @license		CC by-sa <http://creativecommons.org/licenses/by-sa/3.0/>
  * @package		de.community4wcf.wcf.page.simplepage
+ * @subpackage	page
+ * @category	Community Framework
  */
-
 class SimplePagePage extends AbstractPage {
-	// system
-	public $templateName = 'simplepagePage';
-
+	const AVAILABLE_DURING_OFFLINE_MODE = false;
+	
 	/**
-	 * @see Page::assignVariables()
+	 * @see	wcf\page\AbstractPage::$activeMenuItem
+	 */
+	public $activeMenuItem = 'wcf.simplePage.menu';
+	
+	/**
+	 * @see	wcf\page\AbstractPage::$neededPermissions
+	 */
+	#public $neededPermissions = array('user.profile.canViewSimplePage');
+	
+	/**
+	 * @see	wcf\page\AbstractPage::$neededModules
+	 */
+	#public $neededModules = array('MODULE_SIMPLEPAGE_PAGE');
+	
+	/**
+	 * @see wcf\page\IPage::assignVariables()
 	 */
 	public function assignVariables() {
 		parent::assignVariables();
-		
+			
 		WCF::getTPL()->assign(array(
-		'simplepage' => MessageParser::getInstance()->parse(SIMPLEPAGE_TEXT, SIMPLEPAGE_ENABLE_SMILEY, SIMPLEPAGE_ENABLE_HTML, SIMPLEPAGE_ENABLE_BBCODES),
-		'allowSpidersToIndexThisPage' => ALLOW_SPIDER_ON_SIMPLEPAGE));
+			#'simplepage' => MessageParser::getInstance()->setOutputType('text/html'),
+			'simplepage' => MessageParser::getInstance()->parse(SIMPLE_PAGE_CONTENT, 1, 0, 1),
+			'allowSpidersToIndexThisPage' => true
+		));
 	}
-
-	/**
-	 * @see Page::show()
-	 */
-	public function show() {
-		// set active menu item
-		require_once(WCF_DIR.'lib/page/util/menu/PageMenu.class.php');
-		PageMenu::setActiveMenuItem('wcf.header.menu.simplepage');
-		
-		// check permission
-		WCF::getUser()->checkPermission('user.managepages.canViewSimplePage');
-
-		// check module options
-		if (!MODULE_SIMPLEPAGE) {
-			throw new IllegalLinkException();
-		}
-
-		parent::show();
-	}	
 }
-?>

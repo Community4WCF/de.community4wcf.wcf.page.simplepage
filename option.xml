@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="simplePage">
+				<parent>general</parent>
+			</category>
+		</categories>
+	
+		<options>
+			<option name="simple_page_content">
+				<categoryname>simplePage</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<!--
+			<option name="simple_page_text">
+				<categoryname>simplePage</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="simple_page_enable_html">
+				<categoryname>simplePage</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			-->
+		</options>
+	</import>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.simplePage"><![CDATA[Simple Page]]></item>
+		<item name="wcf.acp.option.category.simplePage.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.simple_page_content"><![CDATA[Content]]></item>
+		<item name="wcf.acp.option.simple_page_content.description"><![CDATA[Enter the content of the page.]]></item>
+	</category>
+	<category name="wcf.simplePage">
+		<item name="wcf.simplePage.title"><![CDATA[Page]]></item>
+		<item name="wcf.simplePage.description"><![CDATA[]]></item>
+		<item name="wcf.simplePage.menu"><![CDATA[Page]]></item>
+	</category>
+</language>
