@@ -6,7 +6,7 @@
 		<packagedescription><![CDATA[A simple page to display content.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>2.0.0 Beta 2</version> <!-- codename: Simple Page -->
+		<version>2.0.0 Beta 3</version> <!-- codename: Simple Page -->
 		<date>2013-06-30</date>
 	</packageinformation>
 		
@@ -35,6 +35,7 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
 		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 </package>
