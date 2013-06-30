@@ -2,9 +2,9 @@
 <package name="de.community4wcf.wcf.page.simplepage" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA[Simple Page]]></packagename>
-		<packagename language="de"><![CDATA[Einfache Seite]]></packagename>
-		<packagedescription><![CDATA[To easily manage and display content on a page.]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Zum einfachen Verwalten und Anzeigen von Inhalten auf einer Seite.]]></packagedescription>
+		<packagename language="de"><![CDATA[Einfache Seite / Simple Page]]></packagename>
+		<packagedescription><![CDATA[A simple page to display content.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<version>2.0.0 Beta 2</version> <!-- codename: Simple Page -->
 		<date>2013-06-30</date>
