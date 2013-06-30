@@ -1,0 +1,3 @@
+ToDo:
+
+- Butracker eintrag bei WL, weil man bei mehrsprachigkeit (I18n Support) zusätzlich kein MessageParser verwenden kann.

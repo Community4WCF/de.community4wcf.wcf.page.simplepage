@@ -9,10 +9,12 @@
 		<item name="wcf.acp.option.category.simplePage.general.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.simplePage.settings"><![CDATA[Einstellungen]]></item>
 		<item name="wcf.acp.option.category.simplePage.settings.description"><![CDATA[]]></item>
+		<!--
 		<item name="wcf.acp.option.simple_page_title"><![CDATA[Titel]]></item>
-		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Geben Sie hier den Titel der Seite an. (Den Namen des Seitenmenü-Button können Sie unter Darstellung->Seitenmenü ändern!)]]></item>
+		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Geben Sie hier den Titel der Seite an. (Denn Namen des Seitenmenü-Button können Sie unter Darstellung->Seitenmenü ändern!)]]></item>
+		-->
 		<item name="wcf.acp.option.simple_page_description"><![CDATA[Beschreibung]]></item>
-		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[Geben Sie hier die Beschreibung der Seite an.]]></item>
+		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[Geben Sie hier die Beschreibung der Seite an. (Denn Titel der Seite und des Seitenmenü-Button können Sie unter Darstellung->Seitenmenü ändern!)]]></item>
 		<item name="wcf.acp.option.simple_page_content"><![CDATA[Inhalt]]></item>
 		<item name="wcf.acp.option.simple_page_content.description"><![CDATA[Geben Sie hier den Inhalt der Seite an.]]></item>
 		<item name="wcf.acp.option.simple_page_enable_smiley"><![CDATA[Smilies verwenden]]></item>

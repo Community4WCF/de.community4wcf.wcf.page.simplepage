@@ -24,6 +24,7 @@
 				<defaultvalue>1</defaultvalue>
 			</option>
 			<!-- /module options -->
+			<!--
 			<option name="simple_page_title">
 				<categoryname>simplePage.general</categoryname>
 				<optiontype>textI18n</optiontype>
@@ -31,6 +32,7 @@
 				<showorder>1</showorder>
 				<defaultvalue>wcf.simplePage.title</defaultvalue>
 			</option>
+			-->
 			<option name="simple_page_description">
 				<categoryname>simplePage.general</categoryname>
 				<optiontype>textI18n</optiontype>

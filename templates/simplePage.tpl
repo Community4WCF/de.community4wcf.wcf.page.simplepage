@@ -1,7 +1,7 @@
 {include file='documentHeader'}
 
 <head>
-	<title>{SIMPLE_PAGE_TITLE|language} - {PAGE_TITLE|language}</title>
+	<title>{lang}wcf.simplePage.menu{/lang} - {PAGE_TITLE|language}</title>
 	
 	{include file='headInclude'}
 	
@@ -13,7 +13,7 @@
 {include file='header'}
 
 <header class="boxHeadline">
-	<h1>{SIMPLE_PAGE_TITLE|language}</h1>
+	<h1>{lang}wcf.simplePage.menu{/lang}</h1>
 	<p>{SIMPLE_PAGE_DESCRIPTION|language}</p>
 </header>
 

@@ -9,10 +9,12 @@
 		<item name="wcf.acp.option.category.simplePage.general.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.simplePage.settings"><![CDATA[Settings]]></item>
 		<item name="wcf.acp.option.category.simplePage.settings.description"><![CDATA[]]></item>
+		<!--
 		<item name="wcf.acp.option.simple_page_title"><![CDATA[Title]]></item>
-		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Title of the page. (The name of menü you can change in pagemenü)]]></item>
+		<item name="wcf.acp.option.simple_page_title.description"><![CDATA[Title of the page. (The name of menü you can change in pagemenü.)]]></item>
+		-->
 		<item name="wcf.acp.option.simple_page_description"><![CDATA[Description]]></item>
-		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[(The title of the page and menü you can change in pagemenü.)]]></item>
 		<item name="wcf.acp.option.simple_page_content"><![CDATA[Content]]></item>
 		<item name="wcf.acp.option.simple_page_content.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.simple_page_enable_smiley"><![CDATA[Smiley]]></item>
