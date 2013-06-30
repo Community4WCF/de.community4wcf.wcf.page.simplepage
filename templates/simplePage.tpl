@@ -20,7 +20,7 @@
 {include file='userNotice'}
 
 <div class="container containerPadding marginTop">
-	{@$simplepage|language}
+	{@$simplepage}
 	
 	{event name='additionalContents'}
 </div>
