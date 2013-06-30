@@ -38,7 +38,7 @@ class SimplePagePage extends AbstractPage {
 		parent::assignVariables();
 			
 		WCF::getTPL()->assign(array(
-			'simplepage' => MessageParser::getInstance()->parse(SIMPLE_PAGE_CONTENT, SIMPLE_PAGE_ENABLE_SMILEY, SIMPLE_PAGE_ENABLE_HTML, SIMPLE_PAGE_ENABLE_BBCODES),
+			'simplepage' => MessageParser::getInstance()->parse(WCF::getLanguage()->getDynamicVariable(SIMPLE_PAGE_CONTENT), SIMPLE_PAGE_ENABLE_SMILEY, SIMPLE_PAGE_ENABLE_HTML, SIMPLE_PAGE_ENABLE_BBCODES),
 			'allowSpidersToIndexThisPage' => SIMPLE_PAGE_ENABLE_ALLOWSPIDERS
 		));
 	}
