@@ -20,9 +20,11 @@
 {include file='userNotice'}
 
 <div class="container containerPadding marginTop">
-	{@$simplepage}
+	<fieldset>
+		{@$simplepage}
 	
-	{event name='additionalContents'}
+		{event name='additionalContents'}
+	</fieldset>
 </div>
 
 {include file='footer'}
