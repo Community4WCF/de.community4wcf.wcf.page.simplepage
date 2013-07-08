@@ -3,11 +3,13 @@
 	<packageinformation>
 		<packagename><![CDATA[Simple Page]]></packagename>
 		<packagename language="de"><![CDATA[Einfache Seite / Simple Page]]></packagename>
+		<packagename language="de-informal"><![CDATA[Einfache Seite / Simple Page]]></packagename>
 		<packagedescription><![CDATA[A simple page to display content.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>2.0.0 Beta 3</version> <!-- codename: Simple Page -->
-		<date>2013-06-30</date>
+		<version>2.0.0 Beta 4</version> <!-- codename: Simple Page -->
+		<date>2013-07-08</date>
 	</packageinformation>
 		
 	<!-- license: CC by-sa <http://creativecommons.org/licenses/by-sa/3.0/> -->

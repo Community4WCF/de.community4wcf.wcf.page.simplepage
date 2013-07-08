@@ -26,7 +26,7 @@
 		<item name="wcf.acp.option.simple_page_enable_allowSpiders"><![CDATA[Search engine]]></item>
 		<item name="wcf.acp.option.simple_page_enable_allowSpiders.description"><![CDATA[Enable this option if you want search engines to index this site.]]></item>
 		<item name="wcf.acp.option.simple_page_enable_offlinemode"><![CDATA[Maintenance Mode]]></item>
-		<item name="wcf.acp.option.simple_page_enable_offlinemode.description"><![CDATA[Enable this option if you want the page is accessed during maintenance mode.]]></item>
+		<item name="wcf.acp.option.simple_page_enable_offlinemode.description"><![CDATA[Enable this option if you want the page is accessible during maintenance mode.]]></item>
 	</category>
 	<category name="wcf.simplePage">
 		<item name="wcf.simplePage.title"><![CDATA[Page]]></item>
