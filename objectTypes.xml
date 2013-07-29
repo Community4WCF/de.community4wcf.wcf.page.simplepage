@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/object-type.xsd">
+	<import>
+		<type>
+			<name>de.community4wcf.wcf.page.simplepage</name>
+			<definitionname>com.woltlab.wcf.user.online.location</definitionname>
+			<controller><![CDATA[wcf\page\SimplePagePage]]></controller>
+			<languagevariable>wcf.user.usersOnline.location.SimplePage</languagevariable>
+		</type>
+	</import>
+</data>

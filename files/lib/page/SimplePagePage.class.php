@@ -22,6 +22,11 @@ class SimplePagePage extends AbstractPage {
 	public $activeMenuItem = 'wcf.simplePage.menu';
 	
 	/**
+	 * @see	\wcf\page\AbstractPage::$enableTracking
+	 */
+	public $enableTracking = true;
+	
+	/**
 	 * @see	wcf\page\AbstractPage::$neededPermissions
 	 */
 	public $neededPermissions = array('user.profile.canViewSimplePage');

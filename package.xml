@@ -8,8 +8,8 @@
 		<packagedescription language="de"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>2.0.0 Beta 4</version> <!-- codename: Simple Page -->
-		<date>2013-07-08</date>
+		<version>2.0.0 Beta 5</version> <!-- codename: Simple Page -->
+		<date>2013-07-29</date>
 	</packageinformation>
 		
 	<!-- license: CC by-sa <http://creativecommons.org/licenses/by-sa/3.0/> -->
@@ -20,7 +20,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 4">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 5">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
@@ -30,6 +30,7 @@
 		<instruction type="option">option.xml</instruction>
 		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
+		<instruction type="objectType">objectTypes.xml</instruction>
 	</instructions>
 	
 	<instructions type="update" fromversion="2.0.0 Beta *">
@@ -39,5 +40,6 @@
 		<instruction type="option">option.xml</instruction>
 		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
+		<instruction type="objectType">objectTypes.xml</instruction>
 	</instructions>
 </package>

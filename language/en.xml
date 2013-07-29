@@ -38,4 +38,7 @@
 		<item name="wcf.acp.group.option.user.profile.canViewSimplePage"><![CDATA[Can see „Simple Page“]]></item>
 		<item name="wcf.acp.group.option.user.profile.canViewSimplePage.description"><![CDATA[]]></item>
 	</category>
+	<category name="wcf.user.usersOnline">
+		<item name="wcf.user.usersOnline.location.SimplePage"><![CDATA[Simple Page]]></item>
+	</category>
 </language>
