@@ -17,12 +17,12 @@
 		<item name="wcf.acp.option.simple_page_description.description"><![CDATA[Enter the description for the page. (The title of the page and menü you can change in pagemenü.)]]></item>
 		<item name="wcf.acp.option.simple_page_content"><![CDATA[Content]]></item>
 		<item name="wcf.acp.option.simple_page_content.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.simple_page_enable_smiley"><![CDATA[{lang}wcf.message.settings.enableSmilies{/lang}]]></item>
-		<item name="wcf.acp.option.simple_page_enable_smiley.description"><![CDATA[{lang}wcf.message.settings.enableSmilies.description{/lang}]]></item>
-		<item name="wcf.acp.option.simple_page_enable_html"><![CDATA[{lang}wcf.message.settings.enableHtml{/lang}]]></item>
-		<item name="wcf.acp.option.simple_page_enable_html.description"><![CDATA[{lang}wcf.message.settings.enableHtml.description{/lang}]]></item>
-		<item name="wcf.acp.option.simple_page_enable_bbcodes"><![CDATA[{lang}wcf.message.settings.enableBBCodes{/lang}]]></item>
-		<item name="wcf.acp.option.simple_page_enable_bbcodes.description"><![CDATA[{lang}wcf.message.settings.enableBBCodes.description{/lang}]]></item>
+		<item name="wcf.acp.option.simple_page_enable_smiley"><![CDATA[Enable smilies]]></item>
+		<item name="wcf.acp.option.simple_page_enable_smiley.description"><![CDATA[Smilies will be displayed as a smiley-image.]]></item>
+		<item name="wcf.acp.option.simple_page_enable_html"><![CDATA[Enable HTML]]></item>
+		<item name="wcf.acp.option.simple_page_enable_html.description"><![CDATA[Allows HTML usage once enabled.]]></item>
+		<item name="wcf.acp.option.simple_page_enable_bbcodes"><![CDATA[Enable BBCodes]]></item>
+		<item name="wcf.acp.option.simple_page_enable_bbcodes.description"><![CDATA[Allows BBCode usage once enabled.]]></item>
 		<item name="wcf.acp.option.simple_page_enable_allowSpiders"><![CDATA[Search engine]]></item>
 		<item name="wcf.acp.option.simple_page_enable_allowSpiders.description"><![CDATA[Enable this option if you want search engines to index this site.]]></item>
 		<item name="wcf.acp.option.simple_page_enable_offlinemode"><![CDATA[Maintenance Mode]]></item>
@@ -39,6 +39,6 @@
 		<item name="wcf.acp.group.option.user.profile.canViewSimplePage.description"><![CDATA[]]></item>
 	</category>
 	<category name="wcf.user.usersOnline">
-		<item name="wcf.user.usersOnline.location.SimplePage"><![CDATA[Simple Page]]></item>
+		<item name="wcf.user.usersOnline.location.simplePage"><![CDATA[Simple Page]]></item>
 	</category>
 </language>

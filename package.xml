@@ -8,8 +8,8 @@
 		<packagedescription language="de"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[Eine einfache Seite zum Anzeigen von Inhalten.]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>2.0.0</version> <!-- codename: Simple Page -->
-		<date>2013-12-15</date>
+		<version>2.0.1</version> <!-- codename: Simple Page -->
+		<date>2013-12-21</date>
 	</packageinformation>
 		
 	<!-- license: CC by-sa <http://creativecommons.org/licenses/by-sa/3.0/> -->
@@ -33,6 +33,15 @@
 		<instruction type="objectType">objectTypes.xml</instruction>
 	</instructions>
 	
+	<instructions type="update" fromversion="2.0.0">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="pageMenu">pageMenu.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="objectType">objectTypes.xml</instruction>
+	</instructions>
 	<instructions type="update" fromversion="2.0.0 Beta 5">
 		<instruction type="file">files.tar</instruction>
 		<instruction type="template">templates.tar</instruction>

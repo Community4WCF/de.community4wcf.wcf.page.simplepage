@@ -14,7 +14,7 @@
 
 <header class="boxHeadline">
 	<h1>{lang}wcf.simplePage.menu{/lang}</h1>
-	<p>{SIMPLE_PAGE_DESCRIPTION|language}</p>
+	{hascontent}<p>{content}{SIMPLE_PAGE_DESCRIPTION|language}{/content}</p>{/hascontent}
 </header>
 
 {include file='userNotice'}

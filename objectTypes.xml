@@ -5,7 +5,7 @@
 			<name>de.community4wcf.wcf.page.simplepage</name>
 			<definitionname>com.woltlab.wcf.user.online.location</definitionname>
 			<controller><![CDATA[wcf\page\SimplePagePage]]></controller>
-			<languagevariable>wcf.user.usersOnline.location.SimplePage</languagevariable>
+			<languagevariable>wcf.user.usersOnline.location.simplePage</languagevariable>
 		</type>
 	</import>
 </data>
