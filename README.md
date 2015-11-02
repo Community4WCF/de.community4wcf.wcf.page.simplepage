@@ -24,8 +24,8 @@ Functions
 
 Help on Operation
 -----------------
-Before you see the page, set the group permissions.
-Option: ACP-> System-> Option-> General -> Simple Page
+- Before you see the page, set the group permissions.(ACP -> User -> Usergroups -> General -> Userprofile -> Can see simple page)
+- Option: ACP-> System-> Option-> General -> Simple Page
 
 
 License
