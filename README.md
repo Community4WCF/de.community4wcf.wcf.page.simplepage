@@ -3,8 +3,8 @@ SimplePage for WCF 2
 
 Download and more
 -----------------
-- WoltLab Pluginstore(http://www.woltlab.com/pluginstore/index.php/File/1442-Einfache-Seite/)
-- here (https://github.com/Community4WCF/de.community4wcf.wcf.page.simplepage/releases) on GitHub
+- WoltLab Pluginstore[http://www.woltlab.com/pluginstore/index.php/File/1442-Einfache-Seite/]
+- here [https://github.com/Community4WCF/de.community4wcf.wcf.page.simplepage/releases] on GitHub
 
 Description
 -----------------
