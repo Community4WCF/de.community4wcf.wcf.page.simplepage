@@ -4,6 +4,7 @@ SimplePage for WCF 2
 Download and more
 -----------------
 - http://www.woltlab.com/pluginstore/index.php/File/1442-Einfache-Seite/
+- https://github.com/Community4WCF/de.community4wcf.wcf.page.simplepage/releases
 
 Description
 -----------------
