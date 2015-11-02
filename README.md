@@ -1,6 +1,8 @@
 SimplePage for WCF 2
 ====================
 
+Plugin for WoltLab Community Framework 2.0/2.1 !
+
 Download and more
 -----------------
 - [WoltLab Pluginstore](https://pluginstore.woltlab.com/file/1442-einfache-seite/)
